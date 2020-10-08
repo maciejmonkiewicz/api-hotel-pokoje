@@ -6,7 +6,7 @@ const app = express();
 // wspracie dla jsona
 app.use(bodyParser.json());
 
-// wspracie dla requestó od jsona
+// wspracie dla requestów od jsona
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // główny route
@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 require("./app/routes/pokoje.routes.js")(app);
 
 // startowanie
-const PORT = process.env.PORT || 3000;
+const PORT = 3001 || process.env.PORT;
 app.listen(PORT, () => {
   console.log(`API zostało uruchomione na porcie ${PORT}.`);
 });
