@@ -11,5 +11,5 @@ npm install
 node aplikacja.js
 ```
 
-### i wchodzisz sobie na localhost:3001i tam masz wszystko
+### i wchodzisz sobie na localhost:3001 i tam masz wszystko
 ### A no i jeszcze dodaj sobie sqla do bazy
